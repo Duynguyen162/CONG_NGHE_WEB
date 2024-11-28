@@ -1,0 +1,15 @@
+create database flower_shop
+use flower_shop
+
+CREATE TABLE flowers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    img VARCHAR(255) NOT NULL
+);
+INSERT INTO flowers (name, description, img)
+VALUES 
+("Hoa Đỗ Quyên", "Cây hoa đỗ quyên là loài cây thân gỗ hoặc thân gỗ bụi, có nguồn gốc từ các vùng ôn đới. Tên khoa học của hoa đỗ quyên là Rhododendron, thuộc họ Thạch nam (Ericaceae). Chi của cây hoa này bao gồm khoảng từ 850 đến 1000 loài khác nhau, đa số có hoa nở rực rỡ với nhiều gam màu khác nhau.", "img/doquyen.jpg"),
+("Hoa Hải Đường", "Cây hoa hải đường là loài cây thân gỗ hoặc thân gỗ bụi, có nguồn gốc từ các vùng ôn đới. Tên khoa học của hoa hải đường là Rhododendron, thuộc họ Thạch nam (Ericaceae). Chi của cây hoa này bao gồm khoảng từ 850 đến 1000 loài khác nhau, đa số có hoa nở rực rỡ với nhiều gam màu khác nhau.", "img/haiduong.jpg"),
+("Hoa Mai", "Cây hoa mai là loài cây thân gỗ hoặc thân gỗ bụi, có nguồn gốc từ các vùng ôn đới. Tên khoa học của hoa mai là Rhododendron, thuộc họ Thạch nam (Ericaceae). Chi của cây hoa này bao gồm khoảng từ 850 đến 1000 loài khác nhau, đa số có hoa nở rực rỡ với nhiều gam màu khác nhau.", "img/mai.jpg"),
+("Hoa Tường Vy", "Cây hoa tường vy là loài cây thân gỗ hoặc thân gỗ bụi, có nguồn gốc từ các vùng ôn đới. Tên khoa học của hoa tường vy là Rhododendron, thuộc họ Thạch nam (Ericaceae). Chi của cây hoa này bao gồm khoảng từ 850 đến 1000 loài khác nhau, đa số có hoa nở rực rỡ với nhiều gam màu khác nhau.", "img/tuongvy.jpg");
